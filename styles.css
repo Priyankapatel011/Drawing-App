@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(6, 22, 48, 0.966);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    height: 100vh;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+canvas {
+    margin-top: 10px;
+    border: 2px solid steelblue;
+    background-color: rgb(184, 184, 184);
+}
+
+.tool-box {
+    background-color: steelblue;
+    border: 1px solid slateblue;
+    display: flex;
+    width: 604px;
+    padding: 1rem;
+}
+
+.tool-box > * {
+     background-color: white;
+     border: none;
+     display: inline-flex;
+     justify-content: center;
+     align-items: center;
+     font-size: 2rem;
+     height: 50px;
+     width: 50px;
+     margin: 0.25rem;
+     padding: 0.25rem;
+     cursor: pointer;
+}
+
+.tool-box > *:last-child{
+    /* margin-left: 390px; */
+    margin-left: auto;
+}
